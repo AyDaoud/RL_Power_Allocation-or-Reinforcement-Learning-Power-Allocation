@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files (if any - add specific names or patterns)
+# *.csv
+# data/
+
+# Saved Model Weights (IMPORTANT - these are often large)
+*.h5
+*.pb
+saved_models/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Secrets or sensitive info
+*.env
+secrets.*
+config.json # If it contains secrets
+
+# Temporary files
+*.tmp
+*.log
